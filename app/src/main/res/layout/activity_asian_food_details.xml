@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AsianFoodDetails">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_keyboard_arrow_left_black_24dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView8"
+            app:layout_constraintTop_toTopOf="@+id/imageView8"
+            app:srcCompat="@drawable/ic_bx_share_alt_1" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_rectangle_344" />
+
+        <ImageView
+            android:id="@+id/asian_details_image"
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"
+            app:srcCompat="@drawable/asiafood1" />
+
+        <TextView
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/semibold"
+            android:text="105"
+            android:textColor="#272670"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/ratings"
+            app:layout_constraintEnd_toStartOf="@+id/order"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ratings"
+            app:layout_constraintTop_toTopOf="@+id/ratings" />
+
+        <TextView
+            android:id="@+id/ratings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/semibold"
+            android:text="4.8"
+            android:textColor="#272670"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/save"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/asian_details_image" />
+
+        <TextView
+            android:id="@+id/order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/semibold"
+            android:text="375"
+            android:textColor="#272670"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/save"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/save"
+            app:layout_constraintTop_toTopOf="@+id/save" />
+
+        <TextView
+            android:id="@+id/sdfdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/regular"
+            android:text="ratings"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/ratings"
+            app:layout_constraintStart_toStartOf="@+id/ratings"
+            app:layout_constraintTop_toBottomOf="@+id/ratings" />
+
+        <TextView
+            android:id="@+id/adsjksa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/regular"
+            android:text="save"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/save"
+            app:layout_constraintStart_toStartOf="@+id/save"
+            app:layout_constraintTop_toBottomOf="@+id/save" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/regular"
+            android:text="order"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/order"
+            app:layout_constraintStart_toStartOf="@+id/order"
+            app:layout_constraintTop_toBottomOf="@+id/order" />
+
+        <TextView
+            android:id="@+id/rest_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="68dp"
+            android:fontFamily="@font/regular"
+            android:text="Japanse Food"
+            android:textColor="#FF6813"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sdfdf" />
+
+        <TextView
+            android:id="@+id/asian_food_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="9dp"
+            android:fontFamily="@font/semibold"
+            android:text="Sushi"
+            android:textColor="#091020"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rest_name" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="60dp"
+            android:layout_height="72dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/rest_name"
+            app:srcCompat="@drawable/tagfree" />
+
+        <TextView
+            android:id="@+id/topping"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:lineSpacingExtra="2dp"
+            android:text="Perfecty baked Sushi. Made with chicken, chilli and comes up with 3 types of sauce."
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/asian_food_name" />
+
+        <ImageButton
+            android:id="@+id/btnMinus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="24dp"
+            android:background="#E5E5E5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/topping"
+            app:srcCompat="@drawable/ic_group_400" />
+
+        <TextView
+            android:id="@+id/asian_quantityNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/semibold"
+            android:text="1"
+            android:textColor="#FF6813"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/btnMinus"
+            app:layout_constraintStart_toEndOf="@+id/btnMinus"
+            app:layout_constraintTop_toTopOf="@+id/btnMinus" />
+
+        <ImageButton
+            android:id="@+id/btnPlus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:background="#E5E5E5"
+            app:layout_constraintBottom_toBottomOf="@+id/asian_quantityNum"
+            app:layout_constraintStart_toEndOf="@+id/asian_quantityNum"
+            app:layout_constraintTop_toTopOf="@+id/asian_quantityNum"
+            app:srcCompat="@drawable/ic_group_401" />
+
+        <TextView
+            android:id="@+id/asian_food_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/semibold"
+            android:text="250"
+            android:textColor="#FF6813"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+        <Button
+            android:id="@+id/asian_place_order"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="87dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/btn_custom"
+            android:fontFamily="@font/oswaldlight"
+            android:text="Place Order"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/asian_quantityNum" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/oswaldbold"
+            android:text="TK"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/asian_quantityNum"
+            app:layout_constraintEnd_toStartOf="@+id/asian_food_price"
+            app:layout_constraintTop_toTopOf="@+id/asian_quantityNum" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

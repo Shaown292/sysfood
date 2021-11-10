@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1036269811876",
+    "firebase_url": "https://sysfood-c64c4-default-rtdb.firebaseio.com",
+    "project_id": "sysfood-c64c4",
+    "storage_bucket": "sysfood-c64c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036269811876:android:7a001c5194924fcf9d0e31",
+        "android_client_info": {
+          "package_name": "com.example.sysfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036269811876-g61ekgoucssl9ctilfp3172eehriqk8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL5tz8xMzwxcS5DsETsY42uu81anDViaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036269811876-g61ekgoucssl9ctilfp3172eehriqk8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

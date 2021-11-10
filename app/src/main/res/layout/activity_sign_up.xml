@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30sp"
+        tools:context=".SignUp">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="-7dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/sysicon"
+            android:transitionName="logoImage" />
+
+        <TextView
+            android:id="@+id/txtWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/oswaldbold"
+            android:gravity="center"
+            android:text="Welcome"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:transitionName="logoText"
+            app:textAllCaps="true" />
+
+        <TextView
+            android:id="@+id/txtCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_marginTop="-10dp"
+            android:fontFamily="@font/oswaldlight"
+            android:gravity="center"
+            android:text="Create Your Rozen account"
+            android:textSize="18sp"
+            android:transitionName="logoText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/regName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/oswaldlight"
+                android:hint="Full Name"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/regUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/oswaldlight"
+                android:hint="User Name"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/regEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/oswaldlight"
+                android:hint="E Mail"
+                android:inputType="textEmailAddress" />
+
+
+            <EditText
+                android:id="@+id/regPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/oswaldlight"
+                android:hint="Phone No"
+                android:inputType="phone"
+
+
+                />
+
+
+            <EditText
+                android:id="@+id/regPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/oswaldlight"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+
+            <Button
+                android:id="@+id/btnGo"
+                android:layout_width="192dp"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn_custom"
+                android:fontFamily="@font/regular"
+                android:onClick="registerUser"
+                android:text="GO"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_alreadyHaveAnAccount"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:background="#00000000"
+                android:fontFamily="@font/oswaldlight"
+                android:text="Already have an account?"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>
