@@ -48,11 +48,11 @@ public class HomePage extends AppCompatActivity {
 
 
         List<PopularFood> popularFoodList = new ArrayList<>();
-        popularFoodList.add(new PopularFood("Float  Cake Vietnam", "100", R.drawable.popularfood1));
-        popularFoodList.add(new PopularFood("Chiken Drumstick", "180", R.drawable.popularfood2));
+        popularFoodList.add(new PopularFood("Beef Steak", "1250", R.drawable.beefstreaks));
+        popularFoodList.add(new PopularFood("Brunch", "180", R.drawable.breakfast));
         popularFoodList.add(new PopularFood("Burger", "120", R.drawable.burger));
-        popularFoodList.add(new PopularFood("Tender Beef Pizza", "380", R.drawable.asiafood1));
-        popularFoodList.add(new PopularFood("Crispy Chicken Wings", "120", R.drawable.popularfood3));
+        popularFoodList.add(new PopularFood("Chinese Brunch", "380", R.drawable.chinesebreakfast));
+        popularFoodList.add(new PopularFood("Vegan's Choice", "120", R.drawable.veganschoice));
 
 
         setFoodRecyclerView(popularFoodList);
@@ -62,11 +62,16 @@ public class HomePage extends AppCompatActivity {
 
         asianFoodList.add(new AsianFood(R.drawable.t_bone, "T-Bone Steak", "1250", "Steak House Dhanmondi", "4.0", "Chicken Steak, Sauted vegetable, French Fry and Mashed Potato"));
         asianFoodList.add(new AsianFood(R.drawable.asiafood2, "Dessert", "300", "Pizza Burg", "4.0", "Extra cheese, Mushroom, beef, jalapeno"));
-        asianFoodList.add(new AsianFood(R.drawable.asiafood1, "Tender Beef Pizza", "300", "Pizza Burg", "4.0", "Extra cheese, Mushroom, beef, jalapeno"));
+        asianFoodList.add(new AsianFood(R.drawable.chinesebreakfast, "Tender Beef Pizza", "300", "Pizza Burg", "4.0", "Extra cheese, Mushroom, beef, jalapeno"));
         asianFoodList.add(new AsianFood(R.drawable.french_fry, "French Fry", "80", "Chillox", "3.0", ""));
         asianFoodList.add(new AsianFood(R.drawable.fish_fry, "Fish Fry", "160", "Burger & Boost", "3.8", "Made with Mustard Oil "));
         asianFoodList.add(new AsianFood(R.drawable.chichen_steak_platter, "Chicken Steak Platter", "380", "Pinewood Cafe", "2.8", "Chicken Steak, Sauted vegetable, French Fry and Mashed Potato"));
         asianFoodList.add(new AsianFood(R.drawable.korean_set_menu, "Korean Set Menu", "400", "Yum Cha District", "3.2", "Fried Rice, wonton and Chilli Chicken  "));
+        asianFoodList.add(new AsianFood(R.drawable.chickensteak, "Chicken Steak", "700", "Yum Cha District", "2.2", "Fried Rice, wonton and Chilli Chicken  "));
+        asianFoodList.add(new AsianFood(R.drawable.koreanset, "Korean Set Menu", "460", "Yum Cha District", "3.2", "Fried Rice, wonton and Chilli Chicken  "));
+        asianFoodList.add(new AsianFood(R.drawable.mixedsalad, "Mixed Salad", "260", "Yum Cha District", "4.1", "Fried Rice, wonton and Chilli Chicken  "));
+        asianFoodList.add(new AsianFood(R.drawable.nachos, "Nachos Chips", "100", "Yum Cha District", "2.7", "Fried Rice, wonton and Chilli Chicken  "));
+        asianFoodList.add(new AsianFood(R.drawable.wings, "Wings", "120", "Yum Cha District", "3.2", "Fried Rice, wonton and Chilli Chicken  "));
 
 
 

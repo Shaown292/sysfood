@@ -24,9 +24,9 @@ public class SignUp extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_sign_up);
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_sign_up);
 
 
         txt_fullName = findViewById(R.id.regName);
@@ -117,6 +117,7 @@ public class SignUp extends AppCompatActivity {
             return false;
         } else if (!val.matches(pass)) {
             txt_password.setError("Password is too weak");
+            Toast.makeText(SignUp.this, " Use 1 Upper case, 1 Special Character and 1 number", Toast.LENGTH_LONG).show();
             return false;
         } else {
             txt_password.setError(null);

@@ -5,10 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    app:cardCornerRadius="5dp"
-    android:elevation="15dp"
     android:layout_marginStart="14dp"
-    >
+    android:elevation="15dp"
+    app:cardCornerRadius="5dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="wrap_content"
@@ -21,7 +20,7 @@
             android:adjustViewBounds="true"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/popularfood1" />
+            app:srcCompat="@drawable/chickensteak" />
 
         <TextView
             android:id="@+id/sample_name"
@@ -30,9 +29,9 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:fontFamily="@font/semibold"
-            android:text="Pizza Americano"
+            android:text="Cheese Pizza"
             android:textColor="#091020"
-            android:textSize="15sp"
+            android:textSize="11sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/image" />
@@ -45,7 +44,7 @@
             android:fontFamily="@font/semibold"
             android:text="10"
             android:textColor="#FF6813"
-            android:textSize="14sp"
+            android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="@+id/textView5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView5" />
@@ -57,7 +56,7 @@
             android:layout_marginEnd="8dp"
             android:fontFamily="@font/oswaldbold"
             android:text="TK"
-            android:textSize="16sp"
+            android:textSize="13sp"
             app:layout_constraintBottom_toBottomOf="@+id/sample_name"
             app:layout_constraintEnd_toStartOf="@+id/as_price"
             app:layout_constraintTop_toTopOf="@+id/sample_name" />

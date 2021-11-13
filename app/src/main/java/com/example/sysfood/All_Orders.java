@@ -36,7 +36,7 @@ public class All_Orders extends AppCompatActivity {
 
         list.add(new OrderModel(R.drawable.t_bone, "T-bone Steak", "100", "1"));
         list.add(new OrderModel(R.drawable.burger, "Burger", "230", "2"));
-        list.add(new OrderModel(R.drawable.popularfood1, "Pizza", "170", "3"));
+        list.add(new OrderModel(R.drawable.beefstreaks, "Beef Steak", "1250", "3"));
         list.add(new OrderModel(R.drawable.korean_set_menu, "Korean set menu", "300", "4"));
 
 

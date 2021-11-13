@@ -10,8 +10,8 @@
 
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:background="#FFFEFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,16 +22,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#FAF9F6"
-            android:orientation="vertical"
-            android:padding="5dp"
-            >
+            android:orientation="vertical">
 
             <EditText
                 android:id="@+id/editTextTextPersonName4"
                 android:layout_width="325dp"
                 android:layout_height="45dp"
-                android:layout_gravity="center"
                 android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
 
                 android:layout_marginTop="24dp"
                 android:layout_marginBottom="16dp"
@@ -46,8 +44,7 @@
                 android:id="@+id/constraintLayout3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/search"
-                android:padding="7dp">
+                android:background="@drawable/search">
 
                 <TextView
                     android:id="@+id/textView2"
@@ -66,7 +63,6 @@
                     android:id="@+id/recyclerView"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-
                     android:layout_below="@id/textView2"
                     android:layout_marginTop="8dp"
                     app:layout_constraintEnd_toEndOf="parent"

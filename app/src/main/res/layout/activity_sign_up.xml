@@ -17,9 +17,9 @@
             android:id="@+id/imgLogo"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_marginLeft="-7dp"
+
             android:layout_marginTop="30dp"
-            android:src="@drawable/sysicon"
+            android:src="@drawable/syssolution2"
             android:transitionName="logoImage" />
 
         <TextView
