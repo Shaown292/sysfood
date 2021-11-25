@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/rana/AndroidStudioProjects/SYSFOOD2/app/src/main/res/drawable/btn_custom.xml" value="0.1125" />
+        <entry key="..\:/Users/rana/AndroidStudioProjects/SYSFOOD2/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1787037037037037" />
         <entry key="..\:/Users/rana/AndroidStudioProjects/SYSFOOD2/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2203125" />
         <entry key="..\:/Users/rana/AndroidStudioProjects/SYSFOOD2/app/src/main/res/drawable/search.xml" value="0.2203125" />
         <entry key="..\:/Users/rana/AndroidStudioProjects/SYSFOOD2/app/src/main/res/drawable/search_bg.xml" value="0.21574074074074073" />
@@ -17,10 +18,12 @@
         <entry key="..\:/Users/rana/AndroidStudioProjects/SYSFOOD2/app/src/main/res/layout/activity_home_page.xml" value="0.21" />
         <entry key="..\:/Users/rana/AndroidStudioProjects/SYSFOOD2/app/src/main/res/layout/activity_log_in.xml" value="0.33" />
         <entry key="..\:/Users/rana/AndroidStudioProjects/SYSFOOD2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/rana/AndroidStudioProjects/SYSFOOD2/app/src/main/res/layout/activity_maps.xml" value="0.22" />
         <entry key="..\:/Users/rana/AndroidStudioProjects/SYSFOOD2/app/src/main/res/layout/activity_order_sample.xml" value="0.1" />
         <entry key="..\:/Users/rana/AndroidStudioProjects/SYSFOOD2/app/src/main/res/layout/activity_otp.xml" value="0.25" />
         <entry key="..\:/Users/rana/AndroidStudioProjects/SYSFOOD2/app/src/main/res/layout/activity_sign_up.xml" value="0.29505582137161085" />
         <entry key="..\:/Users/rana/AndroidStudioProjects/SYSFOOD2/app/src/main/res/layout/asian_food_row.xml" value="0.22" />
+        <entry key="..\:/Users/rana/AndroidStudioProjects/SYSFOOD2/app/src/main/res/layout/fragment_maps.xml" value="0.22" />
         <entry key="..\:/Users/rana/AndroidStudioProjects/SYSFOOD2/app/src/main/res/layout/popular_food_row_item.xml" value="0.25" />
         <entry key="..\:/Users/rana/AndroidStudioProjects/SYSFOOD2/app/src/main/res/menu/bottom_manu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/rana/AndroidStudioProjects/SYSFOOD2/app/src/main/res/menu/menu.xml" value="0.20102564102564102" />

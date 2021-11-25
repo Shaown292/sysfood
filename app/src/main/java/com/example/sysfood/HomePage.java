@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
 
@@ -16,6 +17,7 @@ import com.example.sysfood.adapter.AsianFoodAdapter;
 import com.example.sysfood.adapter.PopularFoodAdapter;
 import com.example.sysfood.model.AsianFood;
 import com.example.sysfood.model.PopularFood;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,6 +29,7 @@ public class HomePage extends AppCompatActivity {
     RecyclerView foodRecyclerView, asianFoodRecyclerView;
     PopularFoodAdapter popularFoodAdapter;
     AsianFoodAdapter asianFoodAdapter;
+    FloatingActionButton floatingActionButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +46,16 @@ public class HomePage extends AppCompatActivity {
 //                startActivity(intent);
 //            }
 //        });
+        floatingActionButton = findViewById(R.id.fab);
+
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomePage.this, MapsActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
 
 
